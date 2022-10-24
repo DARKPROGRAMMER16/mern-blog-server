@@ -4,7 +4,7 @@ import {
   getAllComments,
   newComment,
 } from "../controller/comment-controller.js";
-import { uploadImage } from "../controller/imageController.js";
+// import { uploadImage } from "../controller/imageController.js";
 import { authenticateToken } from "../controller/jwt-controller.js";
 import {
   createPost,
@@ -16,7 +16,7 @@ import {
 
 import { signupUser, loginUser } from "../controller/user-controller.js";
 
-import upload from "../utils/upload.js";
+// import upload from "../utils/upload.js";
 
 const router = express.Router();
 
